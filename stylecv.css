@@ -1,0 +1,87 @@
+@font-face 
+{
+	font-family: 'signature';
+	src: url('polices/signature.ttf');
+}
+
+html
+{
+	height: 99%;
+}
+
+body
+{
+	display: flex;
+	height: 99%;
+}
+
+#liseret
+{
+	width: 10%;
+	height: 99%;
+	border-radius: 10px;
+	background: url('images/bgdark.png');
+} 
+
+li
+{
+	font-size: 1.3em;
+}
+
+h2 + p
+{
+	font-size: 1.3em;
+}
+
+h1
+{
+	text-align: center;
+	font-family: verdana, serif;
+}
+
+h1 + p
+{
+	text-align: center;
+	font-family: signature, verdana, serif;
+	font-size: 2.7em;
+	color: white;
+	text-shadow: 2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, -2px 0 0 black, 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 black, -2px -2px 0 black;
+
+}
+
+h2
+{
+	color: orange;
+	font-family: verdana, serif;
+	font-size: 1.3em;
+}
+
+#conteneur
+{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: white;
+	margin-left: 1%;
+}
+
+img
+{
+	border: 1px solid black;
+	box-shadow: 0px 6px 4px black;
+}
+
+.element:nth-child(1)
+{
+	flex: 1;
+}
+
+.element:nth-child(2)
+{
+	flex: 1;
+}
+
+.element:nth-child(3)
+{
+	flex: 1;
+}
